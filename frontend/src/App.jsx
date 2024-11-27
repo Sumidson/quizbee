@@ -10,6 +10,7 @@ import TeacherDash from "./pages/TeacherDash";
 import Quiz from "./pages/Quiz";
 import QuestionAdd from "./pages/QuestonAdd";
 import ScorePage from "./pages/ScorePage";
+import Study from "./pages/Study";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
     <Route path="/all-quizes" element={<Quizes/>} />
     <Route path="/quiz/:quizId" element={<Quiz/>} />
     <Route path="/question-add/:quizId" element={<QuestionAdd/>} />
+    <Route path="/study-session" element={<Study/>} />
     <Route path="/score/:quizId" element={<ScorePage/>} />
   </Routes>
     </>
