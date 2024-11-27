@@ -6,7 +6,7 @@ function Footer() {
       <footer className="py-10 bg-gray-800">
         <div className="container px-6 mx-auto text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Quizy. All rights reserved.
+            &copy; {new Date().getFullYear()} QuizBee. All rights reserved.
           </p>
           <div className="flex justify-center mt-4 space-x-4">
             <a href="/about" className="text-gray-400 hover:text-white">About</a>

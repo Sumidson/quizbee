@@ -14,7 +14,7 @@ function Signup() {
           <div className="flex flex-col w-full mt-16 space-y-8 lg:w-1/2">
             <div className="text-center lg:text-left">
               <h1 className="mb-4 text-4xl font-bold text-purple-700">
-                Welcome to Quizy!
+                Welcome to QuizBee!
               </h1>
               <p className="text-lg text-gray-500">
                 Sign in to take fun quizzes, track your progress, and climb the
@@ -24,7 +24,7 @@ function Signup() {
 
             <div className="p-8 text-center bg-white rounded-lg shadow-lg lg:text-left">
               <h2 className="mb-4 text-2xl font-semibold text-purple-600">
-                Why Join Quizy?
+                Why Join QuizBee?
               </h2>
               <p className="mb-4 text-gray-500">
                 Unlock personalized quizzes, earn badges, and compete with
