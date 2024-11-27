@@ -9,17 +9,17 @@ function Home() {
 
   return (
     <div>
-      <div className="sticky top-0 z-50 ">
+      <div className="sticky top-0 z-50">
         <Navbar />
       </div>
       <div className="min-h-screen bg-gray-50 text-gray-800">
         <section className="py-16 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300">
           <div className="container px-8 mx-auto text-center">
             <h1 className="mb-6 text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Welcome to Quizy
+              Welcome to QuizBee
             </h1>
             <p className="mb-12 text-xl text-gray-700">
-              Your go-to platform to test knowledge, challenge friend!
+              Your go-to platform to test knowledge, challenge friends, and enhance learning.
             </p>
             <div className="flex justify-center gap-6">
               <a
@@ -46,35 +46,35 @@ function Home() {
           </div>
         </section>
 
-        <section className="py-20 bg-gradient-to-r from-gray-50 to-gray-100">
+        <section className="py-20 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300">
           <h2 className="mb-16 text-4xl font-bold text-center text-gray-900">
             What We Do
           </h2>
           <div className="grid gap-12 text-center md:grid-cols-3">
+            {/* Engaging Quizzes */}
             <div className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
               <div className="mb-4 text-5xl text-blue-600">📚</div>
               <h3 className="mb-4 text-2xl font-bold text-gray-800">Engaging Quizzes</h3>
               <p className="text-gray-600">
-                Take quizzes on various topics to test your knowledge, sharpen
-                your skills, and learn in a fun way.
+                Explore quizzes across various topics that help you enhance your knowledge while keeping learning fun and engaging.
               </p>
             </div>
 
+            {/* Study Sessions */}
             <div className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
               <div className="mb-4 text-5xl text-blue-600">🏆</div>
-              <h3 className="mb-4 text-2xl font-bold text-gray-800">Study Session</h3>
+              <h3 className="mb-4 text-2xl font-bold text-gray-800">Competitive Study Sessions</h3>
               <p className="text-gray-600">
-                Compete with others and track your progress. Climb the
-                leaderboard and show off your achievements!
+                Join study sessions to challenge others, track your progress, and rise up the leaderboard to showcase your skills.
               </p>
             </div>
 
+            {/* Track Your Progress */}
             <div className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
               <div className="mb-4 text-5xl text-blue-600">💡</div>
               <h3 className="mb-4 text-2xl font-bold text-gray-800">Track Your Progress</h3>
               <p className="text-gray-600">
-                Keep track of the quizzes you've taken, your scores, and see how
-                you improve over time.
+                Keep a close eye on your growth. Monitor your quiz performance and see how your knowledge improves over time.
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ function Home() {
             Ready to Test Your Knowledge?
           </h2>
           <p className="mb-10 text-xl text-gray-700">
-            Join Quizy today and dive into the world of fun and learning!
+            Join QuizBee today and dive into the world of fun and learning!
           </p>
           <a
             href="/signup"

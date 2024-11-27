@@ -15,7 +15,7 @@ function Navbar() {
               }}
               className="text-white hover:text-yellow-400 transition-colors duration-300"
             >
-              Quizy
+              QuizBee
             </div>
           </div>
 
