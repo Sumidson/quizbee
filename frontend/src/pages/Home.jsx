@@ -52,7 +52,7 @@ function Home() {
           </h2>
           <div className="grid gap-12 text-center md:grid-cols-3">
             {/* Engaging Quizzes */}
-            <div className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
+            <div onClick={()=>{navigate('all-quizes')}} className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
               <div className="mb-4 text-5xl text-blue-600">📚</div>
               <h3 className="mb-4 text-2xl font-bold text-gray-800">Engaging Quizzes</h3>
               <p className="text-gray-600">
@@ -61,12 +61,15 @@ function Home() {
             </div>
 
             {/* Study Sessions */}
-            <div className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
+            
+            <div onClick={()=>{navigate('study-session')}} className="p-10 transition-transform duration-200 ease-in-out transform bg-white border border-gray-300 rounded-lg shadow-xl cursor-pointer hover:scale-105">
               <div className="mb-4 text-5xl text-blue-600">🏆</div>
-              <h3 className="mb-4 text-2xl font-bold text-gray-800">Competitive Study Sessions</h3>
+              <h3 className="mb-4 text-2xl font-bold text-gray-800" >Competitive Study Sessions</h3>
               <p className="text-gray-600">
                 Join study sessions to challenge others, track your progress, and rise up the leaderboard to showcase your skills.
               </p>
+              
+              
             </div>
 
             {/* Track Your Progress */}

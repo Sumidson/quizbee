@@ -67,7 +67,7 @@ function Navbar() {
               onClick={() => {
                 localStorage.removeItem("token");
                 localStorage.removeItem("role");
-                alert("You have been logged out of Quizy. Have a nice day!");
+                alert("You have been logged out of QuizBee. Have a nice day!");
               }}
               className="mt-1 cursor-pointer text-white hover:text-yellow-400 transition-colors duration-300"
             >
